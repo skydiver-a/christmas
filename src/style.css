@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
 body {
-  display: flex;
-  justify-content: center;
-  color: white;
   background-color: #151515;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 @media (min-width: 770px) and (min-height: 770px) {
-  body {
+  .container {
     align-items: center;
     height: 100vh;
   }
 }
+
 a,
 a:visited {
   color: inherit;
