@@ -106,6 +106,8 @@ const data = [
 window.onload = function() {
   addWindowClickHandler();
 
+  setInterval(addClocksHandler, 1000);
+
   addClocksHandler();
 }
 
@@ -127,13 +129,12 @@ const renderModalWindow = (content) => {
 const addClocksHandler = () => {
   const hourHand = document.querySelector('#hours'),
         minuteHand = document.querySelector('#minutes');
+  const date = new Date(),
+        minutes = date.getMinutes(),
+        hours = date.getHours();
+  const minutesDegrees = ((minutes / 60) * 360),
+        hoursDegrees = ((hours / 12) * 360);
 
-  const date = new Date();
-
-  setTimeout(() => {
-    const hr = date.getHours() % 12;
-    const min = date.getMinutes();
-    hourHand.style.transform = "rotate(" + ((360 / 12) * hr) + "deg)";
-    minuteHand.style.transform = "rotate(" + ((360 / 60) * min) + "deg)";
-  }, 1000);
+  hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+  minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
 }
