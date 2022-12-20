@@ -1,17 +1,17 @@
-import Modal from './Modal.js';
+import ContentModal from './ContentModal.js';
 
 const data = [
   {
     title: "Christmas bauble",
-    description: ""
+    description: "decorates Christmas tree."
   },
   {
-    title: "Christmas bauble",
-    description: ""
+    title: "Christmas tree",
+    description: "is an evergreen tree decorated with lights and ornaments."
   },
   {
-    title: "Christmas bauble",
-    description: ""
+    title: "Gingerbread man",
+    description: "is a biscuit cookie made from gingerbread, usually in the shape of a man."
   },
   {
     title: "Christmas bauble",
@@ -116,14 +116,14 @@ const addWindowClickHandler = () => {
 
   daysArray.forEach(item => {
     item.addEventListener('click', () => {
-      renderModalWindow(); // data[item.dataset.index] , item.querySelector('svg')
+      renderModalWindow(item.querySelector('svg'), data[item.dataset.index]);
     });
   });
 }
 
-const renderModalWindow = (content) => {
-  let modalWindow = new Modal('modal');
-  modalWindow.build(content);
+const renderModalWindow = (image, data) => {
+  let modalWindow = new ContentModal('modal', image, data);
+  modalWindow.renderModal();
 }
 
 const addClocksHandler = () => {
