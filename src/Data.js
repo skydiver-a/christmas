@@ -5,7 +5,7 @@ export const data = [
     description: "decorates Christmas tree."
   },
   {
-    svg: '',
+    svg: '<svg width="240" height="480" viewBox="-200 -200 400 400"><polygon points="0,0 160,240 -160,240" fill="#234236" /><polygon points="0,-100 120,100 -120,100" fill="#0C5C4C" /><polygon points="0,-200 80,-40 -80,-40" fill="#38755B" /><rect x="-40" y="240" width="80" height="60" fill="brown" /></svg>',
     title: "Christmas tree",
     description: "is an evergreen tree decorated with lights and ornaments."
   },
