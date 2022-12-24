@@ -348,9 +348,9 @@ svg {
 }
 
 .house {
-  stroke: black;
-  stroke-width: 2px;
-  fill: white;
+  stroke: #F5EED7;
+  stroke-width: 4px;
+  fill: #CD803D;
 }
 
 .house .roof {

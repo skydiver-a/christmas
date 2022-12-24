@@ -15,9 +15,9 @@ export const data = [
     description: "is a biscuit cookie made from gingerbread, usually in the shape of a man."
   },
   {
-    svg: '',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="house" width="240" height="240" viewBox="-200 -200 400 400"><polygon class="wall" points="-130,160 -130,-20 0,-140 130,-20 130,160" stroke="white" strike-width="16" fill="#CD803D" /><polyline points="-150,-16 0,-156 150,-16" fill="none" stroke="#D1495B" stroke-width="20" stroke-linecap="round" /><rect class="door" x="-90" y="20" width="60" height="120" /><circle class="door-knob" cx="-70" cy="80" r="4" /><rect class="stair" x="-94" y="140" width="68" height="10" /><rect class="stair" x="-97" y="150" width="76" height="10" /><rect class="window" x="10" y="30" width="80" height="70" /><line x1="10" y1="65" x2="90" y2="65" /><line x1="50" y1="30" x2="50" y2="100" /><rect class="window-sill" x="4" y="96" width="92" height="10" /><circle class="window" cx="0" cy="-50" r="30" /><line x1="-30" y1="-50" x2="30" y2="-50" /><line x1="0" y1="-80" x2="0" y2="-20" /></svg>',
+    title: "Gingerbread House",
+    description: "is a building made from gingerbread. Walls, floor and roof are cut out of biscuit and put together with icing."
   },
   {
     svg: '',
