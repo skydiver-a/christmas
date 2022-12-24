@@ -2,12 +2,13 @@
 
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   background-color: #151515;
-  margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -78,7 +79,7 @@ body {
 
 .modal_img-container {
   width: 240px;
-  height: 240px;
+  margin: 20px;
 
   display: flex;
   justify-content: center;
@@ -90,12 +91,15 @@ body {
   flex-direction: row-reverse;
 }
 
-.modal__article_content {
+.modal_article {
+  display: flex;
+  flex-direction: column;
 
+  margin: 20px;
 }
 
-.modal__heading {
-
+.modal_article-heading {
+  margin: 20px 0;
 }
 
 a,
@@ -110,8 +114,18 @@ header {
   grid-column: 1/4;
 }
 
-header h1 {
+h1 {
   font-family: "Fredoka One", cursive;
+  font-size: 2.5em;
+  letter-spacing: .2rem;
+}
+
+p {
+  font-size: 2em;
+}
+
+.header_paragraph {
+  margin: 20px 0;
 }
 
 .grid {
