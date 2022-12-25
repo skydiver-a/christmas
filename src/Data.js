@@ -35,13 +35,13 @@ export const data = [
     description: "symbolizes purity. Usually cut out of paper."
   },
   {
-    svg: '8',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="cookies" width="240" height="240" viewBox="-200 -200 400 400"><path class="milk" d="M28,-10 L10,46 L-124,46 L-148,-100 L28,-100" fill="white" /><path class="glass" d="M32,-146 L10,46 L-124,46 L-146,-144 L32,-146" /><circle class="cookie" cx="0" cy="0" r="100" /><circle class="raisin" cx="-64" cy="0" r="20" /><circle class="raisin" cx="0" cy="-40" r="10" /><circle class="raisin" cx="-40" cy="40" r="16" /><circle class="cookie" cx="80" cy="40" r="100" /><circle class="raisin" cx="64" cy="0" r="20" /><circle class="raisin" cx="20" cy="-10" r="10" /><circle class="raisin" cx="40" cy="40" r="16" /><circle class="raisin" cx="130" cy="60" r="20" /><circle class="raisin" cx="90" cy="110" r="10" /><circle class="raisin" cx="120" cy="0" r="16" /></svg>',
+    title: "Cookies for Santa",
+    description: "is a tradition. The children leave it on the fireplace for Santa as a token of gratitude for the work he does every Christmas. "
   },
   {
     svg: '9',
-    title: "Christmas bauble",
+    title: "Candles",
     description: ""
   },
   {

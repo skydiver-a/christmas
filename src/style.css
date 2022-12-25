@@ -408,6 +408,22 @@ svg {
   stroke-width: 4px;
 }
 
+.glass {
+  fill: none;
+  stroke: brown;
+  stroke-width: 8px;
+}
+
+.cookie {
+  fill: #CD803D;
+  stroke: #F5EED7;
+  stroke-width: 4px;
+}
+
+.raisin {
+  fill: brown;
+}
+
 .candy .body {
   stroke-linecap: round;
   fill: none;
