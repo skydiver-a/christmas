@@ -30,9 +30,9 @@ export const data = [
     description: "is a decorative ornament placed on the top of a Christmas tree."
   },
   {
-    svg: '7',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg width="240" height="240" viewBox="-200 -200 400 400"><path d="M0,0 L0,-180 M0,-40 L40,-68 M0,-40 L-40,-68 M0,-80 L40,-108 M0,-80 L-40,-108 M0,-120 L40,-148 M0,-120 L-40,-148 M0,0 L0,180 M0,40 L40,68 M0,40 L-40,68 M0,80 L40,108 M0,80 L-40,108 M0,120 L40,148 M0,120 L-40,148 M0,0 L156,90 M35,20 L40,68 M0,0 L156,-90 M0,0 L-156,90 M0,0 L-156,-90 M35,-20 L40,-68 M35,-20 L70,0 M35,20 L70,0 M-35,20 L-40,67 M-40,-68 L-36,-20 M-36,-20 L-70,0 M-35,20 L-70,0 M-70,-40 L-72,-86 M-70,-40 L-106,-20 M-104,-60 L-104,-104 M-104,-60 L-142,-40 M-69,40 L-108,19 M-69,40 L-74,86 M-104,60 L-141,41 M-104,60 L-109,103 M69,-40 L74,-88 M69,-40 L108,-20 M69,40 L105,19 M69,40 L76,87 M104,-60 L108,-106 M104,-60 L142,-40 M104,60 L139,41 M104,60 L113,104" stroke="#E5C39C" stroke-width="10" /></svg>',
+    title: "Snowflake",
+    description: "symbolizes purity. Usually cut out of paper."
   },
   {
     svg: '8',
