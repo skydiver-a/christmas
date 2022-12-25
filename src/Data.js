@@ -16,18 +16,18 @@ export const data = [
   },
   {
     svg: '<svg class="house" width="240" height="240" viewBox="-200 -200 400 400"><polygon class="wall" points="-130,160 -130,-20 0,-140 130,-20 130,160" stroke="white" strike-width="16" fill="#CD803D" /><polyline points="-150,-16 0,-156 150,-16" fill="none" stroke="#D1495B" stroke-width="20" stroke-linecap="round" /><rect class="door" x="-90" y="20" width="60" height="120" /><circle class="door-knob" cx="-70" cy="80" r="4" /><rect class="stair" x="-94" y="140" width="68" height="10" /><rect class="stair" x="-97" y="150" width="76" height="10" /><rect class="window" x="10" y="30" width="80" height="70" /><line x1="10" y1="65" x2="90" y2="65" /><line x1="50" y1="30" x2="50" y2="100" /><rect class="window-sill" x="4" y="96" width="92" height="10" /><circle class="window" cx="0" cy="-50" r="30" /><line x1="-30" y1="-50" x2="30" y2="-50" /><line x1="0" y1="-80" x2="0" y2="-20" /></svg>',
-    title: "Gingerbread House",
+    title: "Gingerbread house",
     description: "is a building made from gingerbread. Walls, floor and roof are cut out of biscuit and put together with icing."
   },
   {
     svg: '<svg class="stocking" width="240" height="240" viewBox="-200 -200 400 400"><path class="sock_candy" d="M-94,-145 L-53,-101 Q-47,-86 -63,-90 L-104,-133 Q-128,-141 -121,-118 Q-116,-103 -134,-106 C-158,-160 -102,-156 -94,-145 M-66,-114 L-69,-96 M-77,-126 L-79,-107 M-87,-138 L-90,-119 M-99,-149 L-101,-130 M-111,-152 L-110,-136 M-123,-151 L-119,-134 M-136,-141 L-123,-125 M-139,-118 L-119,-110"/><path class="sock" d="M0,-150 L120,10 Q130,20 120,30 L0,150 A50,50 0 1,1 -100,60 L-50,10 Q-40,0 -50,-10 L-100,-80 Z" /><path class="heel" d="M80,-40 L120,10 Q130,20 120,30 L80,75 Q0,0 80,-40 Z" /><circle class="eyelet" cx="12" cy="-170" r="12" /><path class="top" d="M0,-150 Q11,-159 20,-150 L45,-119 Q54,-109 44,-101 L-70,-20 Q-80,-12 -88,-24 L-109,-54 Q-117,-65 -107,-73 Z" /></svg>',
-    title: "Chrismas Stocking",
+    title: "Chrismas stocking",
     description: "is an empty sock so that Father Christmas can fill it with small toys, candy, fruit, coins or other small gifts."
   },
   {
-    svg: '6',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="star" width="240" height="240" viewBox="-200 -200 400 400"><g transform="translate(0 5)"><g><polygon points="0,0 72,-100 0,-200" fill="#EDD8B7" /><polygon points="0,0 -72,-100 0,-200" fill="#E5C39C" /></g><g transform="rotate(72)"><polygon points="0,0 72,-100 0,-200" fill="#EDD8B7" /><polygon points="0,0 -72,-100 0,-200" fill="#E5C39C" /></g><g transform="rotate(-72)"><polygon points="0,0 72,-100 0,-200" fill="#EDD8B7" /><polygon points="0,0 -72,-100 0,-200" fill="#E5C39C" /></g><g transform="rotate(144)"><polygon points="0,0 72,-100 0,-200" fill="#EDD8B7" /><polygon points="0,0 -72,-100 0,-200" fill="#E5C39C" /></g><g transform="rotate(-144)"><polygon points="0,0 72,-100 0,-200" fill="#EDD8B7" /><polygon points="0,0 -72,-100 0,-200" fill="#E5C39C" /></g></g></svg>',
+    title: "Christmas star",
+    description: "is a decorative ornament placed on the top of a Christmas tree."
   },
   {
     svg: '7',
