@@ -380,6 +380,34 @@ svg {
   rx: 5px;
 }
 
+.sock {
+  fill: #d1495b;
+  stroke: #b73a3b;
+  stroke-width: 6px;
+}
+
+.sock_candy {
+  fill: white;
+  stroke: #b73a3b;
+  stroke-width: 6px;
+}
+
+.top {
+  fill: white;
+  stroke: #b73a3b;
+  stroke-width: 6px;
+}
+
+.heel {
+  fill: #b73a3b;
+}
+
+.eyelet {
+  fill: none;
+  stroke: #F79257;
+  stroke-width: 4px;
+}
+
 .candy .body {
   stroke-linecap: round;
   fill: none;

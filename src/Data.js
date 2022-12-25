@@ -20,9 +20,9 @@ export const data = [
     description: "is a building made from gingerbread. Walls, floor and roof are cut out of biscuit and put together with icing."
   },
   {
-    svg: '5',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="stocking" width="240" height="240" viewBox="-200 -200 400 400"><path class="sock_candy" d="M-94,-145 L-53,-101 Q-47,-86 -63,-90 L-104,-133 Q-128,-141 -121,-118 Q-116,-103 -134,-106 C-158,-160 -102,-156 -94,-145 M-66,-114 L-69,-96 M-77,-126 L-79,-107 M-87,-138 L-90,-119 M-99,-149 L-101,-130 M-111,-152 L-110,-136 M-123,-151 L-119,-134 M-136,-141 L-123,-125 M-139,-118 L-119,-110"/><path class="sock" d="M0,-150 L120,10 Q130,20 120,30 L0,150 A50,50 0 1,1 -100,60 L-50,10 Q-40,0 -50,-10 L-100,-80 Z" /><path class="heel" d="M80,-40 L120,10 Q130,20 120,30 L80,75 Q0,0 80,-40 Z" /><circle class="eyelet" cx="12" cy="-170" r="12" /><path class="top" d="M0,-150 Q11,-159 20,-150 L45,-119 Q54,-109 44,-101 L-70,-20 Q-80,-12 -88,-24 L-109,-54 Q-117,-65 -107,-73 Z" /></svg>',
+    title: "Chrismas Stocking",
+    description: "is an empty sock so that Father Christmas can fill it with small toys, candy, fruit, coins or other small gifts."
   },
   {
     svg: '6',
