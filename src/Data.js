@@ -40,9 +40,9 @@ export const data = [
     description: "is a tradition. The children leave it on the fireplace for Santa as a token of gratitude for the work he does every Christmas. "
   },
   {
-    svg: '9',
+    svg: '<svg class="candles" width="240" height="240" viewBox="-200 -200 400 400"><path class="candle" d="M140,40 L140,100 C132,126 70,126 60,100 L60,40 C68,14 136,20 140,40 C134,66 70,66 60,40" fill="white" /><circle class="fire-level-2" cx="100" cy="-20" r="40" /><path class="fire-level-1" d="M100,20 C72,28 80,-16 102,-44 C136,-16 142,14 100,20" /><path class="candle" d="M20,-40 L20,100 C12,128 -52,128 -60,100 L-60,-40 C-52,-66 12,-64 20,-40 C16,-12 -54,-12 -60,-40" fill="white" /><path class="candle" d="M80,0 L80,140 C66,168 18,168 0,140 L0,0 C8,-26 74,-26 80,0 C78,24 10,30 0,0" fill="white" /><circle class="fire-level-2" cx="-100" cy="-90" r="50" /><circle class="fire-level-2" cx="-20" cy="-114" r="50" /><circle class="fire-level-2" cx="40" cy="-66" r="46" /><path class="fire-level-1" d="M40,-20 C4,-44 -10,-80 46,-96 C62,-72 98,-50 40,-20" /><path class="fire-level-1" d="M-20,-60 C-60,-84 -60,-100 -22,-154 C-22,-154 -22,-154 -22,-154 C20,-114 24,-88 -20,-60" /><path class="candle" d="M-60,-20 L-60,80 C-66,104 -132,104 -140,80 L-140,-20 C-130,-46 -70,-46 -60,-20 C-66,6 -134,6 -140,-20" fill="white" /><path class="fire-level-1" d="M-100,-40 C-148,-56 -116,-82 -114,-120 C-48,-78 -64,-48 -100,-40" /><line class="wick" x1="100" y1="0" x2="100" y2="40" /><path class="fire-level-0" d="M100,20 C74,6 110,-6 100,-20 C126,-6 116,22 100,20" /><line class="wick" x1="40" y1="-40" x2="40" y2="0" /><path class="fire-level-0" d="M40,-20 C4,-44 48,-46 40,-60 C54,-52 72,-26 40,-20" /><line class="wick" x1="-20" y1="-40" x2="-20" y2="-80" /><path class="fire-level-0" d="M-20,-60 C-60,-84 -16,-84 -20,-134 C-12,-136 24,-88 -20,-60" /><line class="wick" x1="-100" y1="-20" x2="-100" y2="-60" /><path class="fire-level-0" d="M-100,-40 C-148,-56 -100,-84 -100,-106 C-48,-78 -100,-62 -100,-40" /></svg>',
     title: "Candles",
-    description: ""
+    description: "are lit during Christmas to celebrate the Jesus birth as the 'light of the world.'"
   },
   {
     svg: '10',
