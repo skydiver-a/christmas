@@ -424,6 +424,32 @@ svg {
   fill: brown;
 }
 
+.candle {
+  stroke: brown;
+  stroke-width: 4px;
+}
+
+.wick {
+  stroke: brown;
+  stroke-width: 4px;
+}
+
+.fire-level-0 {
+  fill: #FFB040;
+  stroke: #FFC573;
+  stroke-width: 2px;
+}
+
+.fire-level-1 {
+  fill: #FF9500;
+}
+
+.fire-level-2 {
+  fill: #FFE073;
+  stroke: #b73a3b;
+  stroke-width: 2px;
+}
+
 .candy .body {
   stroke-linecap: round;
   fill: none;
