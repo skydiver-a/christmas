@@ -45,9 +45,9 @@ export const data = [
     description: "are lit during Christmas to celebrate the Jesus birth as the 'light of the world.'"
   },
   {
-    svg: '10',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg width="240" height="480" viewBox="-200 -200 400 400"><defs><radialGradient id="snowball" cx="0.5" cy="0.5" r="2"><stop offset="0%" stop-color="white" /><stop offset="50%" stop-color="white" /><stop offset="100%" stop-color="#d6d6d6" /></radialGradient></defs><circle id="bigball" cx="0" cy="120" r="140" fill="url(#snowball)" /><circle cx="0" cy="-80" r="100" fill="url(#snowball)" /><polygon points="20,-92 100,-80 20,-68" fill="#e66465" /><circle cx="0" cy="-110" r="10" /><circle cx="40" cy="-110" r="10" /><line x1="-80" y1="60" x2="-180" y2="-60" stroke="black" stroke-width="10" /><line x1="-130" y1="0" x2="-180" y2="-20" stroke="black" stroke-width="10" /></svg>',
+    title: "Snowman",
+    description: "is one of the most beloved symbols of Christmas. It is a snow sculpture typically made up of three large snowballs of different sizes. Snowmen can have a carrot for a nose and a bucket for a hat."
   },
   {
     svg: '11',
