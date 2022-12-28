@@ -55,14 +55,14 @@ export const data = [
     description: "associated with Christmas most often chocolate and caramel candies"
   },
   {
-    svg: '12',
-    title: "Christmas bauble",
-    description: ""
+    svg: ' <svg class="gift" width="240" height="240" viewBox="-200 -200 400 400" ><path class="ribbon" d="M0,-100 L60,-100 C100,-100 100,-140 60,-130 L0,-100" fill="none" stroke="#b73a3b" stroke-width="12"/><path class="ribbon" d="M0,-100 L-60,-100 C-100,-100 -100,-140 -60,-130 L0,-100" fill="none" stroke="#b73a3b" stroke-width="12" /><circle cx="0" cy="-100" r="20" fill="#a9172a" /><rect class="box" x="-120" y="-80" width="240" height="200" /><rect class="box" x="-140" y="-92" width="280" height="40" /><rect class="stripe" x="-40" y="-80" width="80" height="200" /><rect class="stripe" x="-50" y="-92" width="100" height="40" /></svg>',
+    title: "Christmas Gift",
+    description: "is a present given in celebration of Christmas. This is an ancient tradition that came from presentation of the gifts by the Three Wise Men to the baby Jesus."
   },
   {
     svg: '13',
-    title: "Christmas bauble",
-    description: ""
+    title: "Bell",
+    description: "is an ornament now. They symbolize Church Bells that ring after sunset on Christmas Eve."
   },
   {
     svg: '14',
