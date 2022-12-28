@@ -70,14 +70,14 @@ export const data = [
     description: "is a cane-shaped stick candy often associated with Christmast. It is traditionally white with red stripes and flavored with peppermint, but they also come in a variety of other flavors and colors."
   },
   {
-    svg: '15',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg width="240" height="240" viewBox="-200 -200 400 400"><path class="ribbon" d="M0,-58 Q10,-56 14,-64 Q22,-68 24,-60 Q36,-18 24,-4 Q22,4 14,0 Q8,-12 -4,0 Q-12,8 -16,-8 Q-20,-28 -16,-52 Q-10,-66 0,-58 M24,-60 Q48,-102 82,-100 Q122,-84 102,-36 Q114,16 82,22 Q62,32 24,-4 M-16,-52 Q-38,-108 -68,-96 Q-110,-84 -106,-42 Q-132,-10 -112,22 Q-84,56 -16,-8 M-30,6 Q-64,46 -60,90 Q-52,66 -46,62 Q-24,84 -24,108 Q-24,44 -4,0 M-4,0 Q22,54 4,128 Q28,116 38,83 Q52,112 38,134 Q96,68 34,4" /></svg>',
+    title: "Ribbons",
+    description: "are tied in bows and decorate the Christmas tree."
   },
   {
-    svg: '16',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="santa" width="240" height="240" viewBox="-200 -200 400 400"><rect class="face" x="-110" y="-120" width="220" height="240" /><path class="hat-red" d="M120,-104 C62,-200 -42,-246 -168,-126 C-130,-140 -128,-128 -122,-104 Z" /><circle class="hat-white" cx="-160" cy="-130" r="30" /><path class="hat-white" d="M-120,-52 Q-4,-148 120,-52 C156,-36 168,-74 148,-86 Q-16,-196 -150,-84 C-168,-56 -136,-34 -120,-52" /><circle cx="40" cy="-60" r="6" /><circle cx="-40" cy="-60" r="6" /><path class="beard" d="M2,0 C-40,-18 -110,-16 -142,36 C-174 50 -172 74 -152 78 C -196 112 -162 152 -136 142 C -128 174 -98 188 -58 160 C -32 194 26 198 52 164 C 88 194 138 160 130 144 C 164 150 180 100 144 84 C186,80 170,40 142,42 C112,-16 62,-22 2,0 Z" /><path class="nose" d="M0,-38 C-106,28 50,62 32,-10" /><path class="mouth" d="M-72,50 Q-28,86 -2,50 Q40,86 70,52" /></svg>',
+    title: "Father Christmas",
+    description: "is the traditional English name for the person who brings gifts, synonym with Santa Claus."
   },
   {
     svg: '17',
