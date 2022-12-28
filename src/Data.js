@@ -80,13 +80,13 @@ export const data = [
     description: "is the traditional English name for the person who brings gifts, synonym with Santa Claus."
   },
   {
-    svg: '17',
+    svg: '<svg width="240" height="240" viewBox="-200 -200 400 400"><path class="wreath" d="M18 -176 Q 36 -194 76 -196 Q 72 -176 60 -162 Q 74 -174 86 -180 Q 96 -162 94 -150 Q 120 -172 154 -168 Q 156 -136 134 -116 Q 150 -120 172 -122 Q 170 -102 164 -92 Q 192 -86 196 -54 Q 184 -46 170 -48 Q 198 -22 198 14 Q 182 16 172 8 Q 184 28 182 42 Q 170 48 160 46 Q 186 70 188 96 Q 156 112 118 82 Q 138 104 136 138 Q 116 134 104 122 Q 100 140 88 150 Q 68 148 68 130 Q 58 158 20 176 Q 14 146 24 128 Q -4 166 -42 174 Q -52 152 -40 130 Q -54 146 -72 152 Q -84 140 -82 120 Q -108 142 -138 144 Q -140 116 -126 94 Q -140 100 -164 96 Q -160 78 -74 70 Q -174 70 -194 48 Q -192 36 -168 32 Q -186 16 -184 -4 Q -176 -8 -166 -6 Q -192 -22 -194 -66 Q -174 -72 -158 -64 Q -184 -76 -192 -92 Q -148 -122 -108 -110 Q -124 -118 -136 -134 Q -112 -148 -88 -132 Q -104 -162 -100 -196 Q -100 -196 -100 -196 Q -64 -182 -46 -156 Q -54 -174 -52 -194 Q -30 -184 -18 -168 Q -18 -180 2 -192 Z" fill="#38755b" stroke="#0c5c4c" stroke-width="2" /><circle cx="0" cy="-20" r="56" fill="white" /><path class="leaf" d="M -184 -92 Q -98 -132 -54 -60 Q -132 -34 -184 -92 Z" /><path class="leaf" d="M -92 -190 Q -36 -164 -40 -104 Q -98 -122 -96 -190 z" /><path class="leaf" d="M 70 -190 Q 4 -184 6 -122 Q 30 -118 70 -190 Z" /><path class="leaf" d="M 190 -56 Q 180 -106 104 -82 Q 104 -40 190 -56 Z" /><path class="leaf" d="M 194 10 Q 184 -62 114 -44 Q 116 -14 194 10 Q 194 10 194 10 Z" /><path class="leaf" d="M 192 92 Q 144 14 86 36 Q 138 108 182 92 Z" /><path class="leaf" d="M -38 168 Q 48 124 26 66 Q -60 140 -38 168 Z" /><path class="leaf" d="M -134 138 Q -80 134 -52 56 Q -130 70 -134 138 Z" /><path class="leaf" d="M -186 48 Q -170 22 -80 48 Q -154 82 -186 48 Z" /><circle class="berry" cx="-130" cy="0" r="14" /><circle class="berry" cx="-120" cy="-30" r="10" /><circle class="berry" cx="-90" cy="-14" r="12" /><circle class="berry" cx="42" cy="-104" r="10" /><circle class="berry" cx="82" cy="-126" r="14" /><circle class="berry" cx="76" cy="-90" r="12" /><g class="bow"><path d="M -12 24 Q -22 20 -18 36 Z Q 10 40 20 28 Q 36 20 36 38 Q 36 48 32 60 Q 30 68 20 68 Q 8 58 -2 68 Q -10 70 -12 64 Q -8 50 -18 36 z" /><path d="M 34 28 Q 66 0 108 -4 Q 126 -6 134 6 Q 144 24 124 40 Q 108 48 116 56 Q 140 80 114 98 Q 100 102 90 92 Q 62 74 32 58 Q 38 4 34 28 Z" /><path d="M -18 24 Q -44 -4 -84 -12 Q -108 -12 -116 4 Q -128 30 -108 46 Q -96 54 -98 60 Q -104 64 -106 84 Q -104 96 -88 100 Q -38 90 -12 64 Q -8 50 -18 36 Q -20 30 -18 24 Z" /><path d="M 42 64 Q 82 102 102 156 Q 78 138 54 140 Q 48 162 48 186 Q 6 130 10 64 Q 20 68 26 68 Q 32 54 42 64 Z" /><path d="M -12 64 Q -88 128 -82 158 Q -56 122 -40 120 Q -36 158 -8 188 Q -22 122 10 66 Q 10 60 -2 68 Q -10 70 -12 64 Z" /></g></svg>',
     title: "Wreath",
-    description: ""
+    description: "is constructed of evergreens to represent everlasting life. The circular shape represents it with no beginning and no end."
   },
   {
-    svg: '18',
-    title: "Christmas bauble",
+    svg: '',
+    title: "Sleigh",
     description: ""
   },
   {
