@@ -476,20 +476,45 @@ svg {
   stroke-width: 2px;
 }
 
-.bear {
+.ribbon {
+  fill: #B73A3B;
+  stroke: #9C2D2A;
+  stroke-width: 4px;
+}
+
+.santa {
   background-color: #f5eed7;
 }
 
-.bear .face {
+.santa .face {
   fill: white;
   rx: 50;
   ry: 30;
 }
 
-.bear .mouth {
+.santa .mouth {
   fill: none;
   stroke: black;
   stroke-width: 2;
+}
+
+.santa .beard,
+.santa .nose{
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
+
+.hat-white {
+  fill: white;
+  stroke: #9C2D2A;
+  stroke-width: 2px;
+}
+
+.hat-red {
+  fill: #B73A3B;
+  stroke: #9C2D2A;
+  stroke-width: 2px;
 }
 
 .sleigh {
@@ -513,7 +538,7 @@ svg {
   border-radius: 10px;
 
   background-color: #38755b;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 120 120'%3E%3Cpolygon fill='%230c5c4c' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 120 120'%3E%3Cpolygon fill='%230c5c4c' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
 }
 
 .flake {
