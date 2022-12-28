@@ -81,7 +81,7 @@ export const data = [
   },
   {
     svg: '17',
-    title: "Christmas bauble",
+    title: "Wreath",
     description: ""
   },
   {
@@ -100,9 +100,9 @@ export const data = [
     description: ""
   },
   {
-    svg: '21',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<div class="background" style="width: 240px; height: 240px;"></div>',
+    title: "Gift Wrapper",
+    description: "is used to box up or decorate a present."
   },
   {
     svg: '22',
