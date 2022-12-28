@@ -60,9 +60,9 @@ export const data = [
     description: "is a present given in celebration of Christmas. This is an ancient tradition that came from presentation of the gifts by the Three Wise Men to the baby Jesus."
   },
   {
-    svg: '13',
-    title: "Bell",
-    description: "is an ornament now. They symbolize Church Bells that ring after sunset on Christmas Eve."
+    svg: '<svg class="bell"  width="240" height="240" viewBox="-200 -200 400 400"><g stroke="#001514" stroke-width="4"><circle cx="0" cy="-90" r="14" fill="#4F6D7A" /><circle class="bell-tongue" cx="0" cy="100" r="20" fill="#F79257" /><path d="M-100,80 L-100,100 L100,100 L100,80 Q80,80 80,20 C80,-120 -80,-120 -80,20 Q-80,80 -100,80" fill="#FDEA96" /></g></svg>',
+    title: "Bells",
+    description: "are decorations now. They symbolize Church Bells that ring after sunset on Christmas Eve."
   },
   {
     svg: '14',
