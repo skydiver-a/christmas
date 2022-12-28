@@ -517,6 +517,16 @@ svg {
   stroke-width: 2px;
 }
 
+.leaf {
+  fill: #08bd7a;
+}
+
+.berry, .bow {
+  fill: #B73A3B;
+  stroke: #9C2D2A;
+  stroke-width: 2px;
+}
+
 .sleigh {
   offset-path: path(
     "M-200 80 L -90 80 Q 60 80 60 -10 A 50 50 0 0 0 -60 -10 Q -60 80 90 80 L 200 80"
