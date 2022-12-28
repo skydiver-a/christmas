@@ -456,12 +456,12 @@ svg {
 
 .candy .red-mark {
   stroke: #d1495b;
-  stroke-width: 2.5px;
+  stroke-width: 20px;
 }
 
 .candy .green-mark {
   stroke: #234236;
-  stroke-width: 2.5px;
+  stroke-width: 20px;
 }
 
 .gift .box {
