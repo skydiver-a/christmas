@@ -60,14 +60,14 @@ export const data = [
     description: "is a present given in celebration of Christmas. This is an ancient tradition that came from presentation of the gifts by the Three Wise Men to the baby Jesus."
   },
   {
-    svg: '<svg class="bell"  width="240" height="240" viewBox="-200 -200 400 400"><g stroke="#001514" stroke-width="4"><circle cx="0" cy="-90" r="14" fill="#4F6D7A" /><circle class="bell-tongue" cx="0" cy="100" r="20" fill="#F79257" /><path d="M-100,80 L-100,100 L100,100 L100,80 Q80,80 80,20 C80,-120 -80,-120 -80,20 Q-80,80 -100,80" fill="#FDEA96" /></g></svg>',
+    svg: '<svg class="bell" width="240" height="240" viewBox="-200 -200 400 400"><g stroke="#001514" stroke-width="4"><circle cx="0" cy="-90" r="14" fill="#4F6D7A" /><circle class="bell-tongue" cx="0" cy="100" r="20" fill="#F79257" /><path d="M-100,80 L-100,100 L100,100 L100,80 Q80,80 80,20 C80,-120 -80,-120 -80,20 Q-80,80 -100,80" fill="#FDEA96" /></g></svg>',
     title: "Bells",
     description: "are decorations now. They symbolize Church Bells that ring after sunset on Christmas Eve."
   },
   {
-    svg: '14',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="candy" width="240" height="480" viewBox="-200 -400 400 800"><path d="M100,240 L100,-160 A100,100 0,0 0,-100 -160" stroke="#cd803d" stroke-width="120" class="body"/><path d="M100,240 L100,-160 A100,100 0,0 0,-100 -160" stroke="white" stroke-width="60" class="body"/><line class="green-mark" x1="-60" y1="-180" x2="-130" y2="-200" /><line class="red-mark" x1="-16" y1="-220" x2="-36" y2="-290" /><line class="green-mark" x1="36" y1="-216" x2="72" y2="-272" /><defs><path id="candy-line" d="M65,-80 L130,-135 L130,-115 L65,-60 Z" /></defs><use href="#candy-line" fill="#d1495b" transform="translate(0, -40)" /><use href="#candy-line" fill="#234236" transform="translate(0, 50)"/><use href="#candy-line" fill="#d1495b" transform="translate(0, 140)"/><use href="#candy-line" fill="#234236" transform="translate(0, 230)"/><use href="#candy-line" fill="#d1495b" transform="translate(0, 320)"/></svg>',
+    title: "Candy Cane",
+    description: "is a cane-shaped stick candy often associated with Christmast. It is traditionally white with red stripes and flavored with peppermint, but they also come in a variety of other flavors and colors."
   },
   {
     svg: '15',

@@ -444,31 +444,35 @@
           >
             <path
               d="
-                M 50 120
-                L 50 -80
-                A 50 50 0 0 0 -50 -80"
+                M50,120
+                L50,-80
+                A50,50 0,0 0,-50 -80"
               stroke="#cd803d"
-              stroke-width="45"
+              stroke-width="60"
               class="body"
             />
 
             <path
               d="
-                M 50 120
-                L 50 -80
-                A 50 50 0 0 0 -50 -80"
+                M50,120
+                L50,-80
+                A50,50 0,0 0,-50 -80"
               stroke="white"
-              stroke-width="40"
+              stroke-width="30"
               class="body"
             />
 
-            <line class="green-mark" x1="-35" y1="-90" x2="-60" y2="-100" />
-            <line class="red-mark" x1="-15" y1="-115" x2="-25" y2="-135" />
-            <line class="green-mark" x1="20" y1="-110" x2="35" y2="-130" />
-            <line class="red-mark" x1="40" y1="-60" x2="60" y2="-80" />
-            <line class="green-mark" x1="40" y1="-10" x2="60" y2="-30" />
-            <line class="red-mark" x1="40" y1="40" x2="60" y2="20" />
-            <line class="green-mark" x1="40" y1="90" x2="60" y2="70" />
+            <line class="green-mark" x1="-30" y1="-90" x2="-65" y2="-100" />
+            <line class="red-mark" x1="-8" y1="-110" x2="-18" y2="-145" />
+            <line class="green-mark" x1="18" y1="-108" x2="36" y2="-136" />
+            <defs>
+              <path id="line" d="M35,-55 L65,-80 L65,-60 L35,-35 L35,-55" />
+            </defs>
+            <use href="#line" fill="#d1495b" transform="translate(0, -20)"/>
+            <use href="#line" fill="#234236" transform="translate(0, 25)"/>
+            <use href="#line" fill="#d1495b" transform="translate(0, 70)"/>
+            <use href="#line" fill="#234236" transform="translate(0, 115)"/>
+            <use href="#line" fill="#d1495b" transform="translate(0, 160)"/>
           </svg>
         </div>
       </div>
