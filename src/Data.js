@@ -85,9 +85,9 @@ export const data = [
     description: "is constructed of evergreens to represent everlasting life. The circular shape represents it with no beginning and no end."
   },
   {
-    svg: '',
+    svg: '<svg width="480" height="240" viewBox="-400 -200 800 400" fill="none"><path stroke="#E0CEB9" stroke-width="8" d="M-400 160 L -160 160 Q 160 160 140 -20 A 140 140 0 0 0 -140 -20 Q -160 160 160 160 L 400 160" /><g class="sleigh-max"><path d="M -60 -4 L 60 -4 A 20 20 0 0 0 60 -44 M -40 -4 L -40 -34 M 40 -4 L 40 -34" stroke="#AF6455" stroke-width="10" /><path d="M -54 -34 L 54 -34" stroke="#7A504F" stroke-width="12" /></g></svg>',
     title: "Sleigh",
-    description: ""
+    description: "is a vehicle used by Father Christmas."
   },
   {
     svg: '19',
@@ -105,14 +105,14 @@ export const data = [
     description: "is used to box up or decorate a present."
   },
   {
-    svg: '22',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<svg class="clock" width="240" height="240" viewBox="-200 -200 400 400"><rect x="-200" y="-200" width="400" height="400" fill="#CD803D" /><circle r="110" stroke="#FCCE7B" stroke-width="20" fill="white" /><circle r="90" stroke="#B6705F" stroke-width="12" stroke-dasharray="6 41" stroke-dashoffset="6" fill="none" /><g stroke="#5f4c6c" stroke-linecap="round"><line class="hours" y2="-40" stroke-width="10" /><line class="minutes" y2="-70" stroke-width="6" /></g></svg>',
+    title: "Alarm Clock",
+    description: "You can set it to waylay Santa."
   },
   {
-    svg: '23',
-    title: "Christmas bauble",
-    description: ""
+    svg: '<div class="max-christmas-lights"><div class="chord"></div><div class="bulb bulb-1"><div class="light"></div></div><div class="bulb bulb-2"><div class="light"></div></div><div class="bulb bulb-3"><div class="light"></div></div><div class="bulb bulb-4"><div class="light"></div></div><div class="bulb bulb-5"><div class="light"></div></div></div>',
+    title: "Christmas lights",
+    description: "are lights used for decoration in celebration of Christmas."
   },
   {
     svg: '24',
