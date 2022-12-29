@@ -26,14 +26,14 @@ const renderModalWindow = (data) => {
 }
 
 const addClocksHandler = () => {
-  const hourHand = document.querySelector('#hours'),
-        minuteHand = document.querySelector('#minutes');
+  const hourHand = document.querySelectorAll('.hours'),
+        minuteHand = document.querySelectorAll('.minutes');
   const date = new Date(),
         minutes = date.getMinutes(),
         hours = date.getHours();
   const minutesDegrees = ((minutes / 60) * 360),
         hoursDegrees = ((hours / 12) * 360);
 
-  hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
-  minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
+  hourHand.forEach(item => { item.style.transform = `rotate(${hoursDegrees}deg)`; });
+  minuteHand.forEach(item => { item.style.transform = `rotate(${minutesDegrees}deg)`; });
 }
