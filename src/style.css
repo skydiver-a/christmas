@@ -326,7 +326,8 @@ svg {
   border-radius: 10px;
 }
 
-.gingerbread .body {
+.gingerbread .body,
+.reindeer .head {
   fill: #cd803d;
 }
 
@@ -979,3 +980,23 @@ svg {
   90%  { opacity: 0.12; }
   100% { opacity: 0.1; }
 }
+
+.dark-leaf {
+  fill: #147320;
+}
+
+.light-leaf {
+  fill: #2dbd40;
+}
+
+.holly-berries {
+  fill: white;
+}
+
+.branch {
+  fill: none;
+  stroke: #147320;
+  stroke-width: 1px;
+}
+
+
