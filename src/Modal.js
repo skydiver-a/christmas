@@ -6,6 +6,7 @@ export default class Modal {
     this.modalImage = "";
     this.modalContent = "";
     this.modalCloseBtn = "";
+    this.isPlay = false;
   }
 
   build(content, image) {
@@ -29,6 +30,19 @@ export default class Modal {
   }
 
   bindEvents() {
+    if (this.modalImage.querySelector('.music-sign')) {
+        const carol = document.createElement('audio');
+        carol.src = `src/Ring_Christmas_Bells.mp3`;
+        this.modalImage.addEventListener('click', () => {
+          if (this.isPlay == false) {
+            carol.play();
+            this.isPlay = true;
+          } else {
+            carol.pause();
+            this.isPlay = false;
+          }
+        });
+    }
     this.modalCloseBtn.addEventListener('click', this.closeModal);
     this.overlay.addEventListener('click', this.closeModal);
   }

@@ -380,7 +380,8 @@ svg {
   rx: 5px;
 }
 
-.sock {
+.sock,
+.reindeer .nose {
   fill: #d1495b;
   stroke: #b73a3b;
   stroke-width: 6px;
@@ -420,7 +421,8 @@ svg {
   stroke-width: 4px;
 }
 
-.raisin {
+.raisin,
+.reindeer .horns {
   fill: brown;
 }
 
@@ -999,4 +1001,12 @@ svg {
   stroke-width: 1px;
 }
 
+.music-sign:hover {
+  transition: .5s ease-in-out;
+  transform: scale(1.1);
+}
 
+.music-sign:not(:hover) {
+  transition: .5s ease-in-out;
+  transform: scale(1.0);
+}
